@@ -8,9 +8,7 @@ Summary: KDE Frameworks 5 Tier 3 integration module with icon themes
 License: LGPLv2+ and GPLv2+
 URL:     https://api.kde.org/frameworks/kiconthemes/
 
-%global majmin %majmin_ver_kf5
-%global stable %stable_kf5
-Source0: http://download.kde.org/%{stable}/frameworks/%{kf5_version}/kiconthemes-%{version}.tar.xz
+Source0: %{name}-%{version}.tar.bz2
 
 %{?opt_kf5_default_filter}
 
