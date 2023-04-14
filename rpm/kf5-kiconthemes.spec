@@ -19,6 +19,7 @@ BuildRequires: opt-kf5-kcoreaddons-devel >= %{kf5_version}
 BuildRequires: opt-kf5-ki18n-devel >= %{kf5_version}
 BuildRequires: opt-kf5-kitemviews-devel >= %{kf5_version}
 BuildRequires: opt-kf5-kwidgetsaddons-devel >= %{kf5_version}
+BuildRequires: opt-kf5-kguiaddons-devel >= %{kf5_version}
 BuildRequires: opt-kf5-rpm-macros
 
 BuildRequires: opt-qt5-qtbase-devel
@@ -32,6 +33,7 @@ Requires: opt-kf5-kconfigwidgets
 Requires: opt-kf5-kcoreaddons
 Requires: opt-kf5-kitemviews
 Requires: opt-kf5-kwidgetsaddons
+Requires: opt-kf5-kguiaddons
 
 
 %description
