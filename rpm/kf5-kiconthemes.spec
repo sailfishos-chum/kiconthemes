@@ -1,7 +1,7 @@
-%global kf5_version 5.108.0
+%global kf5_version 5.115.0
 
 Name: opt-kf5-kiconthemes
-Version: 5.108.0
+Version: 5.115.0
 Release: 1%{?dist}
 Summary: KDE Frameworks 5 Tier 3 integration module with icon themes
 
